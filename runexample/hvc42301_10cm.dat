@@ -1,0 +1,52 @@
+CMNT:		5
+COMMUNITY:  Temperate_Coniferous_Forest
+SITE:      Harvard_Forest_MA_USA
+Lon:            -72.5
+Lat:             42.5
+Updated:        20020104      
+           
+VEGCyica:     3534.33        
+VEGCyicb:    10027.21
+STRNyica:        8.8275
+STRNyicb:       25.056
+SOLCyica:     4241.68
+SOLCyicb:     5908.1
+SOLNyica:      177.77
+SOLNyicb:      247.62
+AVLNyica:       -3.1898
+AVLNyicb:        2.8999
+STONyica:        0.1342
+STONyicb:        0.5397
+
+UNLEAF12:        0.50
+PRVLEAFMX:       1.00
+
+CMAXCUT:         0.55
+CMAX1A:        137.14
+CMAX1B:        674.48
+CMAX2A:        137.14
+CMAX2B:        674.48
+CFALL:           0.003590
+KRA:            -0.0000806
+KRB:            -5.773032
+KDA:             0.00041858
+KDB:             0.0022836
+LCCLNC:        128.11
+PROPFTOS:        0.2000
+           
+NMAXCUT:         0.55           
+NMAX1A:         -1.1563      
+NMAX1B:         22.002
+NMAX2A:         -1.1563
+NMAX2B:         22.002    
+NFALL:           0.011370          
+NUPA:            0.3699  
+NUPB:            6.2219     
+NLOSS:           1.00           
+NFIXPAR:         0.00           
+CNEVEN:         89.17           
+CNMIN:          25.00           
+VEGC2NA:         0.0000           
+VEGC2NB:       403.5700  
+C2NMIN:        403.5700     
+CNSOIL:         23.86

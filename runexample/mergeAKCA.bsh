@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#append output files into previous files
+dir1=/scratch/rice/z/zhao1026/burnTest/run/noburn/AK
+dir2=/scratch/rice/z/zhao1026/burnTest/run/noburn/CA
+dir3=/scratch/rice/z/zhao1026/burnTest/run/noburn/NA
+fileAK=('AKclds_all.tx4' 'AKele_all.tx4' 'AKprecip_all.tx4' 'AKtemp_all.tx4' 'AKtexture_all.tx4' 'AKvapor_all.tx4' 
+'AKveg_cl_all.tx4')
+fileCA=('CAclds_all.tx4' 'CAele_all.tx4' 'CAprecip_all.tx4' 'CAtemp_all.tx4' 'CAtexture_all.tx4' 'CAvapor_all.tx4' 
+'CAveg_cl_all.tx4')
+file=('clds.tx4' 'ele.tx4' 'precip.tx4' 'temp.tx4' 'texture.tx4' 'vapor.tx4' 
+'veg_cl.tx4')
+#dir3=/ch4con.day-
+
+for ((i=0;i<${#file[*]};i++));do
+rm $dir3/${file[$i]}
+done
+
+for ((i=0;i<${#file[*]};i++));do
+  cat $dir1/${fileAK[$i]} >> $dir3/${file[$i]}
+  cat $dir2/${fileCA[$i]} >> $dir3/${file[$i]}
+  echo $dir3/${file[$i]}
+done
+  echo "finish merging"

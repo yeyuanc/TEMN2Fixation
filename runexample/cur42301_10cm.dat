@@ -1,0 +1,53 @@
+CMNT:             8
+COMMUNITY:  Xeric_Shrubland
+SITE:      Curlew
+Lon:           -113.5
+Lat:             41.0
+Updated:        20020103                
+                  
+VEGCyica:      268.52            
+VEGCyicb:      433.05                  
+STRNyica:        9.7108                
+STRNyicb:       15.642            
+SOLCyica:     1543.13            
+SOLCyicb:     1797.36                
+SOLNyica:      129.66               
+SOLNyicb:      151.04                 
+AVLNyica:       -3.2043               
+AVLNyicb:        2.8094               
+STONyica:        0.6874           
+STONyicb:        0.5168               
+
+UNLEAF12:        0.25
+PRVLEAFMX:       1.00
+                  
+CMAXCUT:         0.35                  
+CMAX1A:        526.67           
+CMAX1B:        247.67               
+CMAX2A:        -23.857               
+CMAX2B:        441.09                
+CFALL:           0.016975                  
+KRA:            -0.0000806
+KRB:            -5.046      
+KDA:             0.00100968                  
+KDB:             0.0012671
+LCCLNC:         40.74      
+PROPFTOS:        0.2000                  
+
+NMAXCUT:         0.35                  
+NMAX1A:       -179.0            
+NMAX1B:        129.8                
+NMAX2A:         51.714              
+NMAX2B:         47.314                 
+NFALL:           0.011540                  
+NUPA:            9.6714              
+NUPB:           11.072                  
+NLOSS:           1.0                  
+NFIXPAR:         0.00                  
+CNEVEN:         40.56                  
+CNMIN:          15.00                  
+VEGC2NA:         0.0               
+VEGC2NB:        27.69                
+C2NMIN:         27.69
+CNSOIL:         11.90
+

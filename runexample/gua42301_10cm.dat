@@ -1,0 +1,53 @@
+CMNT:		10
+COMMUNITY:  Xeric_Forest
+SITE:      Guanica_Puerto_Rico
+Lon:            -67.0
+Lat:             18.0
+Updated:        20020103               
+                  
+VEGCyica:     1990.80        
+VEGCyicb:     3080.65              
+STRNyica:       41.14                
+STRNyicb:       65.432          
+SOLCyica:     2726.30           
+SOLCyicb:     2964.92              
+SOLNyica:      278.48               
+SOLNyicb:      302.85              
+AVLNyica:       -3.9703              
+AVLNyicb:        3.8993           
+STONyica:        0.5717         
+STONyicb:        0.03        
+
+UNLEAF12:        0.25
+PRVLEAFMX:       1.00
+                  
+CMAXCUT:         0.55              
+CMAX1A:        240.04             
+CMAX1B:        404.63       
+CMAX2A:        240.04            
+CMAX2B:        404.63           
+CFALL:           0.010659             
+KRA:            -0.0000806
+KRB:            -6.064651      
+KDA:             0.00072409              
+KDB:             0.00151432
+LCCLNC:         39.29      
+PROPFTOS:        0.2000                  
+
+NMAXCUT:         0.55                  
+NMAX1A:        -24.6           
+NMAX1B:         44.3            
+NMAX2A:        -24.6             
+NMAX2B:         44.3              
+NFALL:           0.0131                  
+NUPA:            3.636              
+NUPB:            4.3768          
+NLOSS:           1.0                 
+NFIXPAR:         0.00                  
+CNEVEN:         39.29                  
+CNMIN:          15.00                  
+VEGC2NA:         0.0               
+VEGC2NB:        47.78                
+C2NMIN:         47.78
+CNSOIL:          9.79
+

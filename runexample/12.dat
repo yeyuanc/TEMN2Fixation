@@ -1,0 +1,53 @@
+CMNT:		12
+COMMUNITY:  Temperate_mixed_Forest
+SITE:      VIRTUAL_SITE
+Lon:            -72.5
+Lat:             42.5
+Updated:        20020104      
+           
+           
+VEGCyica:     0
+VEGCyicb:    14845.94
+STRNyica:      0
+STRNyicb:       25.056
+SOLCyica:     0
+SOLCyicb:     10675.52
+SOLNyica:      0
+SOLNyicb:      529.92
+AVLNyica:       0
+AVLNyicb:        2.01
+STONyica:        0
+STONyicb:        0.5397
+
+UNLEAF12:        0.50
+PRVLEAFMX:       1.00
+
+CMAXCUT:         0.55
+CMAX1A:        0
+CMAX1B:        1125.90
+CMAX2A:        0
+CMAX2B:        1125.90
+CFALL:           0.00366
+KRA:            0
+KRB:            -5.773032
+KDA:             0
+KDB:             0.002422
+LCCLNC:        128.11
+PROPFTOS:        0.2000
+           
+NMAXCUT:         0.55           
+NMAX1A:    0
+NMAX1B:         470.8
+NMAX2A:     0
+NMAX2B:        470.8    
+NFALL:           0.01505          
+NUPA:        0
+NUPB:            6.5     
+NLOSS:           1.00           
+NFIXPAR:         0.00           
+CNEVEN:         89.17           
+CNMIN:           0.00           
+VEGC2NA:         0.0000           
+VEGC2NB:       403.5700  
+C2NMIN:        403.5700     
+CNSOIL:         23.86

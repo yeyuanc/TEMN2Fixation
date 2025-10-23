@@ -1,0 +1,54 @@
+CMNT:            1
+COMMUNITY:      ICE
+SITE:          Dummy
+Lon:           -99.9
+Lat:           -99.9
+Updated:        20000115
+
+
+VEGCyica:     -999.99
+VEGCyicb:     -999.99
+STRNyica:     -999.99
+STRNyicb:     -999.99
+SOLCyica:     -999.99
+SOLCyicb:     -999.99
+SOLNyica:     -999.99
+SOLNyicb:     -999.99
+AVLNyica:     -999.99
+AVLNyicb:     -999.99
+STONyica:     -999.99
+STONyicb:     -999.99
+
+UNLEAF12:       -9.99
+PRVLEAFMX:      -9.99
+
+CMAXCUT:       -99.99
+CMAX1A:       -999.99
+CMAX1B:       -999.99
+CMAX2A:       -999.99
+CMAX2B:       -999.99
+CFALL:         -99.99
+KRA:           -99.99
+KRB:           -99.99
+KDA:           -99.99
+KDB:           -99.99
+LCCLNC:        -99.99
+PROPFTOS:      -99.99
+
+NMAXCUT:       -99.99
+NMAX1A:        -99.99
+NMAX1B:        -99.99
+NMAX2A:        -99.99
+NMAX2B:        -99.99
+NFALL:         -99.99
+NUPA:          -99.99
+NUPB:          -99.99
+NLOSS:         -99.99
+NFIXPAR:       -99.99
+CNEVEN:        -99.99
+CNMIN:         -99.99
+VEGC2NA:       -99.99
+VEGC2NB:       -99.99
+C2NMIN:        -99.99
+CNSOIL:       -999.99
+

@@ -1,0 +1,52 @@
+CMNT:             2
+COMMUNITY:  Polar_Desert
+SITE:      Toolik_Lake_LTER_USA
+Lon:           -150.0
+Lat:             68.5
+Updated:        20020103         
+           
+VEGCyica:      157.50      
+VEGCyicb:      391.61
+STRNyica:        2.3081
+STRNyicb:        5.687
+SOLCyica:     4912.49
+SOLCyicb:     4317.67
+SOLNyica:      312.82
+SOLNyicb:      187.08
+AVLNyica:       -0.4246
+AVLNyicb:        0.5674
+STONyica:        0.3122
+STONyicb:        0.8385
+
+UNLEAF12:        0.00
+PRVLEAFMX:       1.00
+
+CMAXCUT:         0.55
+CMAX1A:         98.882
+CMAX1B:        350.36
+CMAX2A:         98.882
+CMAX2B:        350.36
+CFALL:           0.010037
+KRA:            -0.0005870
+KRB:            -4.275
+KDA:             0.00029764
+KDB:             0.00103287
+LCCLNC:        130.00
+PROPFTOS:        0.2000
+           
+NMAXCUT:         0.55           
+NMAX1A:         -9.8649     
+NMAX1B:         31.084
+NMAX2A:         11.0
+NMAX2B:         20.05     
+NFALL:           0.008381          
+NUPA:            1.8407    
+NUPB:           15.974      
+NLOSS:           1.0           
+NFIXPAR:         0.0           
+CNEVEN:         42.50           
+CNMIN:           20.00           
+VEGC2NA:         0.0           
+VEGC2NB:        69.23  
+C2NMIN:         69.23       
+CNSOIL:         23.08

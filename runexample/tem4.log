@@ -1,0 +1,435 @@
+
+Please enter the lable of subdirectory you want to start with the simulations? 
+part-1312/
+
+Do you want to run the model only for steady state conditions ? 
+ Enter 0 for transient simulation
+ Enter 1 for steady state simulation
+equil = 0
+
+Do you want to start the transient with a spin up period? 
+Enter 0 for no:
+Enter 1 for yes: 
+spinflag = 1
+
+How many spins do you want in the spin up period? 
+numspin = 3
+
+How many years per spin? 
+spintime = 45
+
+Do you want to output the spin up tem data? 1: yes/0: no  0
+totsptime = 135
+
+
+How many years do you run for transient simulations ? 
+transtime = 120
+
+RTIME = 256
+
+
+Do you want to run the SOIL THERMAL MODEL (STM) model for soil temperatures?
+  Enter 0 for No
+  Enter 1 for Yes
+ stmflg = 1
+
+Enter name of the snow (.ECD) data file with the parameter values:QTSP44A2.ECD
+
+Enter name of soil layer (.ECD) data file with parameter values:QTLA44A2.ECD
+
+Enter name of the soil temperature initial (.ECD) data file with the parameter values:QTST44A2.ECD
+
+
+Do you want to run the POTSCLM model for solar radiation variables?
+  Enter 0 for No
+  Enter 1 for Yes
+ atmsflag = 1
+
+Do you have spatially explicit solar radiation data or cloudiness data?:
+Enter 0 for solar radiation data (W/ sq. m):
+Enter 1 for cloudiness data (percent cloudiness): 
+cldflag = 1
+
+Do you have transient cloudiness data?:
+Enter 0 for no:
+Enter 1 for yes: 
+telmnt[0].clm.tcldsflag = 1
+
+Please enter the name of the file containing the mean monthly cloudiness data: 
+               (e.g., CLDS.GIS) 
+clds1981-2100_126_0.txt
+
+How do you locate your grid cells?
+Enter 0 for column/row:
+Enter 1 for longitude/latitude: 1
+
+
+Do you wish output data from the irradiance model? 
+  Enter 0 for no
+  Enter 1 for yes: 
+atmsoutfg = 0
+
+
+Do you want to run the terrestrial ecosystem model (TEM)?
+  Enter 0 for No
+  Enter 1 for Yes
+temflag = 1
+
+
+Do you want to allow available N to fluctuate?
+  Enter 0 for No
+  Enter 1 for Yes: 
+avlnflag = 1
+
+
+Do you want nitrogen feedback on GPP?
+  Enter 0 for No
+  Enter 1 for Yes: 
+nfeed = 1
+
+
+Do you want to solve for baseline soil nitrogen?
+  Enter 0 for No
+  Enter 1 for Yes: 
+baseline = 1
+
+
+Do you want to run the model with moisture limitation?
+  Enter 0 for No
+  Enter 1 for Yes: 
+moistlim = 1
+
+
+How many years do you want to wait before checking equilibrium conditions? 
+strteq = 10
+
+
+Enter the maximum number of years for the model to run: 
+maxyears = 3000
+
+
+Enter the maximum number of attempts to reach a solution: 
+maxnrun = 1
+
+
+What absolute tolerance do you want to use for checking equilibrium
+of the water cycle? wtol = 10
+
+
+What absolute tolerance do you want to use for checking equilibrium
+of the carbon cycle?
+ctol = 10
+
+
+What absolute tolerance do you want to use for checking equilibrium
+of the nitrogen cycle?
+ntol = 10
+
+
+
+What year do you want to start collecting output data? startyr = 1981
+
+
+What year do you want to stop collecting output data? endyr = 2101
+How often (x years) should data be collected after the initial year? diffyr = 1
+
+Enter the proportional tolerance for the integrator: 0.01
+Enter the maximum number of iterations in the integrator: 3
+Enter the maximum number of times in a month that the
+integrator can reach the maximum number of iterations: 5
+Enter name of the soil (.ECD) data file with parameter values: Tsoil423.ecd
+Enter name of the data file containing the rooting depths:
+               (e.g., ROOTZVEG.ECD)
+Trotz423.ecd
+Enter name of the file with the vegetation parameter values (.ECD):Tveg423.ecd
+
+Enter name of the file with leaf parameter values (.ECD):Tleaf423.ecd
+
+Enter name of the file with microbe parameter values (.ECD)
+dependent upon vegetation: Tmcrv423.ecd
+
+Enter name of the file with Penman-Monteith parameter values (.ECD):Penmon423.ecd
+
+Enter name of the file with soil hydaulic parameter values (.ECD):SOIL_HYD.ecd
+
+
+
+Please enter the number of community types with calibration data:12
+Enter name of the site (.ECD) data file with the parameter values cmnt
+1: ice423.dat
+2: tpd42301_10cm.dat
+3: tmt42301_10cm.dat
+4: bon42301_10cm.dat
+5: hvc42301_10cm.dat
+6: hvd42301_10cm.dat
+7: pwn42301_10cm.dat
+8: cur42301_10cm.dat
+9: duc42301_10cm.dat
+10: gua42301_10cm.dat
+11: tai42301_10cm.dat
+12: gua2_42301_10cm.dat
+
+
+Enter name of the file prescribing vegetation mosaics (.ECD):
+Tcomm423.ecd
+
+Please enter the name of the file containing the soil texture data:
+               (e.g., TEXTURE.GIS) 
+clfao.txt
+
+Please enter the name of the file containing the vegetation data: 
+               (e.g., TEMVEG.GIS) 
+cltveg.txt
+
+Please enter the name of the file containing the elevation data: 
+               (e.g., ELEV.GIS) 
+celev.txt
+
+Please enter the name of the file containing the pH data: 
+               (e.g., pH.GIS) 
+ph.txt
+
+Please enter the name of the file containing the  Density data: 
+               (e.g.,  Density.GIS) 
+density.txt
+
+
+Do you have transient air temperature data?:
+Enter 0 for No:
+Enter 1 for Yes: 
+telmnt[0].tem.atms.ttairflag = 1
+
+Please enter the name of the file containing the mean monthly air temperature data: 
+               (e.g., TAIR.GIS) 
+tair1981-2100_126_0.txt
+
+
+Do you have transient precipitation data?:
+Enter 0 for No:
+Enter 1 for Yes: 
+temnt[0].tem.atms.tprecflag = 1
+
+Please enter the name of the file containing the monthly precipitation data: 
+               (e.g., PREC.GIS) 
+prec1981-2100_126_0.txt
+
+
+Do you have transient vapor pressure data?:
+Enter 0 for No:
+Enter 1 for Yes: 
+telmnt[0].tem.hyd.vapflag = 1
+
+Please enter the name of the file containing the mean monthly vapor pressure data: 
+               (e.g., TVAP.GIS) 
+vap1981-2100_126_0.txt
+
+
+Do you have transient nhx deposition data?:
+Enter 0 for No:
+Enter 1 for Yes: 
+temnt[0].tem.atms.tnhxdepoflag = 1
+
+Please enter the name of the file containing the monthly nhx deposition data: 
+               (e.g., NHXDEPO.GIS) 
+Ndeponhx1260.txt
+
+
+Do you have transient noy deposition data?:
+Enter 0 for No:
+Enter 1 for Yes: 
+temnt[0].tem.atms.tnoydepoflag = 1
+
+Please enter the name of the file containing the monthly noy deposition data: 
+               (e.g., NOYDEPO.GIS) 
+Ndeponoy1260.txt
+
+
+
+Enter the initial concentration of carbon dioxide in ppmv: 286.596
+
+
+
+Enter the final equilibrium concentration of carbon dioxide in ppmv: 286.596
+
+Do you have transient CO2 data?:
+Enter 0 for No:
+Enter 1 for Yes: 
+telmnt[0].tem.atms.tco2flag = 1
+
+
+
+Enter the name of the file containing the CO2 data: kco21860_rcp126.data
+
+Enter the factor for changing C:N per ppmv of enhanced CO2:
+                     (Enter 0.0 for no change): 
+telmnt[0].tem.veg.dc2n = 0.000519
+
+Do you have transient land use data?:
+Enter 0 for No:
+Enter 1 for Yes: telmnt[0].tem.ag.tlulcflag = 0
+
+Do you want to use spatially explicit values of Kd?
+Enter 0 for No:
+Enter 1 for Yes: 
+kdinflg = 0
+
+
+Do you want to generate spatially explicit values of Kd?
+Enter 0 for No:
+Enter 1 for Yes: 
+kdoutflg = 0
+
+
+
+           POSSIBLE OUTPUT VARIABLES:
+
+VEGC SOILORGC TOTALC VEGN VSTRUCTN 
+VSTOREN SOILORGN AVAILN AGPRODC AGFPRODN 
+PROD10C PROD10N PROD100C PROD100N TOTPRODC 
+TOTPRODN TOTEC TOTGC NO3 NH4 
+DOC VEGCAG VEGCBG AVAILH2O RGRNDH2O 
+SNOWPACK SGRNDH2O SOILH2O PCTP VSM 
+VEGINGPP GPP VEGINNPP NPP GPR 
+RVMAINT RVGRWTH LTRC RH NEP 
+NINPUT VEGINNUP VEGNUP VEGSUP VEGLUP 
+VNMOBIL VNRESORB LTRN MICRONUP NETNMIN 
+NLOST RAIN RPERC RRUN SNOWFALL 
+SNOWINF SPERC SRUN PET EET 
+H2OYIELD TSOIL DST5 DST10 DST20 
+DST50 DST100 DST200 FRONTD THAWBE 
+THAWEND UNRMLEAF LEAF FPC LAI 
+CONVERTC CONVERTN SCONVRTC SCONVRTN NVRETENT 
+NSRETENT NRETENT SLASHC SLASHN PRDF10C 
+PRDF10N PRDF100C PRDF100N AGNPPC AGNPPN 
+AGFPRODC  AGLTRFC AGLTRFN AGFERTN 
+TOTFPRDC TOTFPRDN AGPRODFC AGPRODFN PRD10FC 
+PRD10FN PRD100FC PRD100FN TOTPRDFC TOTPRDFN 
+TOTNPP CFLUX N2 N2O NOX 
+NGAS FNIT FDENIT N2OF N2F 
+N2OAIR N2AIR N2OUPT N2ON N2ODN 
+NH3 N2FIX N2FIXS N2FIXFL  
+
+
+How many variables are to be mapped (max 128) in output files?46
+
+Please enter output variable: 
+1 PCTP
+2 VEGC
+3 VEGCBG
+4 VEGCAG
+5 LTRC
+6 SOILORGC
+7 TOTALC
+8 VEGN
+9 GPP
+10 INGPP
+11 NPP
+12 NEP
+13 FNIT
+14 FDENIT
+15 NO3
+16 NH4
+17 N2
+18 N2O
+19 NOX
+20 N2OF
+21 N2F
+22 N2OAIR
+23 N2AIR
+24 N2OUPT
+25 SOILORGN
+26 AVAILN
+27 NETNMIN
+28 RH
+29 VEGNUP
+30 VEGINNUP
+31 SNOWPACK
+32 NH3
+33 FRONTD
+34 N2ODN
+35 N2ON
+36 NLOST
+37 NINPUT
+38 LTRN
+39 MICRONUP
+40 VEGN
+41 N2FIX
+42 N2FIXS
+43 N2FIXFL
+44 VSTRUCTN
+45 VSTOREN
+46 VNRESORB
+Enter the name of the OUTPUT file to contain PCTP:  pctp.out
+Enter the name of the OUTPUT file to contain VEGC:  vegc.out
+Enter the name of the OUTPUT file to contain VEGCBG:  vegcbg.out
+Enter the name of the OUTPUT file to contain VEGCAG:  vegcag.out
+Enter the name of the OUTPUT file to contain LTRC:  ltrc.out
+Enter the name of the OUTPUT file to contain SOILORGC:  soilorgc.out
+Enter the name of the OUTPUT file to contain TOTALC:  totalc.out
+Enter the name of the OUTPUT file to contain VEGN:  vegn.out
+Enter the name of the OUTPUT file to contain GPP:  gpp.out
+Enter the name of the OUTPUT file to contain INGPP:  ingpp.out
+Enter the name of the OUTPUT file to contain NPP:  npp.out
+Enter the name of the OUTPUT file to contain NEP:  nep.out
+Enter the name of the OUTPUT file to contain FNIT:  fnit.out
+Enter the name of the OUTPUT file to contain FDENIT:  fdenit.out
+Enter the name of the OUTPUT file to contain NO3:  no3.out
+Enter the name of the OUTPUT file to contain NH4:  nh4.out
+Enter the name of the OUTPUT file to contain N2:  n2.out
+Enter the name of the OUTPUT file to contain N2O:  n2o.out
+Enter the name of the OUTPUT file to contain NOX:  nox.out
+Enter the name of the OUTPUT file to contain N2OF:  n2of.out
+Enter the name of the OUTPUT file to contain N2F:  n2f.out
+Enter the name of the OUTPUT file to contain N2OAIR:  n2oair.out
+Enter the name of the OUTPUT file to contain N2AIR:  n2air.out
+Enter the name of the OUTPUT file to contain N2OUPT:  n2oupt.out
+Enter the name of the OUTPUT file to contain SOILORGN:  soilorgn.out
+Enter the name of the OUTPUT file to contain AVAILN:  availn.out
+Enter the name of the OUTPUT file to contain NETNMIN:  netnmin.out
+Enter the name of the OUTPUT file to contain RH:  rh.out
+Enter the name of the OUTPUT file to contain VEGNUP:  vegnupt.out
+Enter the name of the OUTPUT file to contain VEGINNUP:  veginnupt.out
+Enter the name of the OUTPUT file to contain SNOWPACK:  snowpack.out
+Enter the name of the OUTPUT file to contain NH3:  nh3.out
+Enter the name of the OUTPUT file to contain FRONTD:  frontd.out
+Enter the name of the OUTPUT file to contain N2ODN:  n2odn.out
+Enter the name of the OUTPUT file to contain N2ON:  n2on.out
+Enter the name of the OUTPUT file to contain NLOST:  nlost.out
+Enter the name of the OUTPUT file to contain NINPUT:  ninput.out
+Enter the name of the OUTPUT file to contain LTRN:  ltrn.out
+Enter the name of the OUTPUT file to contain MICRONUP:  micronup.out
+Enter the name of the OUTPUT file to contain VEGN:  vegn.out
+Enter the name of the OUTPUT file to contain N2FIX:  n2fix.out
+Enter the name of the OUTPUT file to contain N2FIXS:  n2fixs.out
+Enter the name of the OUTPUT file to contain N2FIXFL:  n2fixfl.out
+Enter the name of the OUTPUT file to contain VSTRUCTN:  vstrn.out
+Enter the name of the OUTPUT file to contain VSTOREN:  vston.out
+Enter the name of the OUTPUT file to contain VNRESORB:  vnresorb.out
+
+Do you want to use spatially explicit data for intial conditions? 
+  Enter 1 for YES:
+  Enter 0 for NO:
+  NOTE:  If YES, you will need spatially explicit data for VEGC,
+         STRUCTN, SOLC, SOLN, AVLN, NSTORE, AVAILH2O, RGRNDH2O,
+         SNOWPACK, SGRNDH2O, UNNORMLEAF, PET, EET,(i.e. 13 data files)
+stateflag = 0
+
+
+
+For how many grid cells would you like a timestamp?
+After 'x' number of grid cells
+Enter 0 for no timestamp): 100
+
+
+Do you want to start at the beginning of the GIS files?
+  Enter 1 for YES
+  Enter 0 for NO: 1
+
+
+
+
+Do you want to finish at the end of the GIS files?
+  Enter 1 for YES
+  Enter 0 for NO: 1
+
+

@@ -1,0 +1,52 @@
+CMNT:             11
+COMMUNITY:  Temperate_Brdlf_Forest
+SITE:      Taita_New_Zealand
+Lon:           174.5
+Lat:            -41.5
+Updated:        20020103         
+           
+VEGCyica:     5846.44      
+VEGCyicb:    11715.59
+STRNyica:       16.091
+STRNyicb:       33.184
+SOLCyica:     4985.15
+SOLCyicb:     6782.69
+SOLNyica:      193.37
+SOLNyicb:      263.1
+AVLNyica:       -2.4034
+AVLNyicb:        2.0933
+STONyica:       -0.1679
+STONyicb:        0.5654
+
+UNLEAF12:        0.50
+PRVLEAFMX:       1.00
+
+CMAXCUT:         0.55
+CMAX1A:        195.41
+CMAX1B:       1048.71
+CMAX2A:        195.41
+CMAX2B:       1048.71
+CFALL:           0.004722
+KRA:            -0.0000806
+KRB:            -4.9325
+KDA:             0.00046835
+KDB:             0.00300743
+LCCLNC:         81.73
+PROPFTOS:        0.2000
+           
+NMAXCUT:         0.55           
+NMAX1A:         -8.6246  
+NMAX1B:         70.006   
+NMAX2A:         -8.6246
+NMAX2B:         70.006    
+NFALL:           0.020567          
+NUPA:            0.3116       
+NUPB:            5.3049       
+NLOSS:           1.0           
+NFIXPAR:         0.00           
+CNEVEN:         65.00           
+CNMIN:          15.00           
+VEGC2NA:         0.00           
+VEGC2NB:       357.14  
+C2NMIN:        357.14       
+CNSOIL:         25.78

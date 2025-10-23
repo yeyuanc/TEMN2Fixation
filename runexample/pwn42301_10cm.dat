@@ -1,0 +1,52 @@
+CMNT:		7
+COMMUNITY:  Grassland
+SITE:      Pawnee_Colorado
+Lon:           -105.0
+Lat:             40.5
+Updated:        20020103                 
+                  
+VEGCyica:      257.15           
+VEGCyicb:      224.97                 
+STRNyica:        7.515                
+STRNyicb:        6.4845         
+SOLCyica:     2739.73           
+SOLCyicb:     2527.44              
+SOLNyica:      246.38               
+SOLNyicb:      227.29                 
+AVLNyica:       -4.1168             
+AVLNyicb:        3.6486               
+STONyica:        0.099         
+STONyicb:        0.1415             
+
+UNLEAF12:        0.10
+PRVLEAFMX:       1.00
+                  
+CMAXCUT:         0.35                  
+CMAX1A:        47.45          
+CMAX1B:        480.76               
+CMAX2A:        47.45              
+CMAX2B:        480.76                
+CFALL:           0.052910                  
+KRA:            -0.0005870
+KRB:            -3.901      
+KDA:             0.00077728               
+KDB:             0.00219803
+LCCLNC:         57.14      
+PROPFTOS:        0.2000                  
+                  
+NMAXCUT:         0.55                  
+NMAX1A:         -2.9108          
+NMAX1B:         24.347             
+NMAX2A:          2.1            
+NMAX2B:         21.842              
+NFALL:           0.03188                 
+NUPA:            1.8792             
+NUPB:           10.809                 
+NLOSS:           1.00                  
+NFIXPAR:         0.00                  
+CNEVEN:         54.29                  
+CNMIN:          15.00                  
+VEGC2NA:        56.806               
+VEGC2NB:         0.118             
+C2NMIN:         30.00
+CNSOIL:         11.12

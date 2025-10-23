@@ -1,0 +1,52 @@
+CMNT:		6
+COMMUNITY:  Temperate_Deciduous_Forest
+SITE:      Harvard_Forest_MA_USA
+Lon:            -72.5
+Lat:             42.5
+Updated:        20020103         
+           
+VEGCyica:     5391.0        
+VEGCyicb:    13633.39
+STRNyica:       12.965
+STRNyicb:       33.14
+SOLCyica:     4678.0
+SOLCyicb:     5796.05
+SOLNyica:      226.76
+SOLNyicb:      280.95
+AVLNyica:       -4.5968
+AVLNyicb:        4.0054
+STONyica:        0.1757
+STONyicb:        1.3324
+
+UNLEAF12:        0.50
+PRVLEAFMX:       1.00
+
+CMAXCUT:         0.55
+CMAX1A:        171.41
+CMAX1B:       1192.5
+CMAX2A:        171.41
+CMAX2B:       1192.5
+CFALL:           0.003483
+KRA:            -0.0000806
+KRB:            -5.276750
+KDA:             0.00055349
+KDB:             0.00306587
+LCCLNC:         81.25
+PROPFTOS:        0.2000
+           
+NMAXCUT:         0.35           
+NMAX1A:         -1.8667      
+NMAX1B:         49.533
+NMAX2A:          1.8786
+NMAX2B:         48.266     
+NFALL:           0.017890          
+NUPA:            0.3062  
+NUPB:            5.499      
+NLOSS:           1.0          
+NFIXPAR:         0.00           
+CNEVEN:         65.00           
+CNMIN:          20.00           
+VEGC2NA:         0.0000           
+VEGC2NB:       420.2700  
+C2NMIN:        420.2700     
+CNSOIL:         20.63
