@@ -1,4 +1,4 @@
-This database has four folders:
+This database has 2 folders:
 
 -----------------------------------------------------------------------------------------------------
 
@@ -72,25 +72,5 @@ The variable name in run.go4 should be SOILORGC.
 
 -----------------------------------------------------------------------------------------------------
 
-3.Results: provides the key outputs of TEM simulation
 
-3.1 Fixation: Base simulation results. 
-    GFDL126fdenitmean.csv: Summed annual denitrification rate for each 0.5*0.5 grid under RCP 2.6 warming scenario. 
-    GFDL126gppmean.csv: Summed annual GPP for each 0.5*0.5 grid under RCP 2.6 warming scenario. 
-    GFDL126fixflmean.csv: Summed annual free-living nitrogen fixation for each 0.5*0.5 grid under RCP 2.6 warming scenario. 
-    GFDL126fixsmean.csv:Summed annual symbiotic nitrogen fixation for each 0.5*0.5 grid under RCP 2.6 warming scenario. 
-    GFDL126nlost.csv: Summed annual N leaching for each 0.5*0.5 grid under RCP 2.6 warming scenario.
-    GFDL126soilorgc.csv:Summed annual soil carbon pool each 0.5*0.5 grid under RCP 2.6 warming scenario.
-    GFDL126vegc.csv:Summed annual vegetation carbon pool each 0.5*0.5 grid under RCP 2.6 warming scenario.
-    GFDL126vegnupt.csv: Summed annual vegetation N uptake for each 0.5*0.5 grid under RCP 2.6 warming scenario.
-    Files staring with GFDL245 and GFDL585 represent simulation results under warming scenarios RCP 4.5  and RCP 8.5 accordingly. 
-
-3.2 Sensitivity: Permafrost thawing simulation results.
-    gfdl126n2fixflmean0.9.csv: Summed annual free-living nitrogen fixation for each 0.5*0.5 grid under RCP 2.6 warming scenario with 90% distribution. 
-    gfdl126n2fixsmean0.9.csv: Summed annual symbiotic nitrogen fixation for each 0.5*0.5 grid under RCP 2.6 warming scenario with 90% distribution. 
-    gfdl126n2fixflmean1.1.csv: Summed annual free-living nitrogen fixation for each 0.5*0.5 grid under RCP 2.6 warming scenario with 110% distribution. 
-    gfdl126n2fixsmean1.1.csv: Summed annual symbiotic nitrogen fixation for each 0.5*0.5 grid under RCP 2.6 warming scenario with 110% distribution. 
-    Files starting with gfdl245 and gfdl585represent above simulation results under warming scenarios RCP 4.5  and RCP 8.5 accordingly. 
-
------------------------------------------------------------------------------------------------------
 
