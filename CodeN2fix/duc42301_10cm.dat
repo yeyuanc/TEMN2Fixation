@@ -1,0 +1,53 @@
+CMNT:             9
+COMMUNITY:  Tropical_Forests
+SITE:      Reserve_Ducke_Amazonas_Brazil
+Lon:           -60.0
+Lat:            -3.0
+Updated:        20011203
+
+           
+VEGCyica:     427.59        
+VEGCyicb:    1671.05
+STRNyica:       6.605
+STRNyicb:      30.24
+SOLCyica:     3176.92
+SOLCyicb:     4559.83
+SOLNyica:      198.18
+SOLNyicb:      284.46
+AVLNyica:       -3.0805
+AVLNyicb:        3.2291
+STONyica:       -0.0645
+STONyicb:        0.1421
+
+UNLEAF12:        0.25
+PRVLEAFMX:       1.00
+
+CMAXCUT:         0.55
+CMAX1A:         97.805
+CMAX1B:        385.29
+CMAX2A:         97.805
+CMAX2B:        385.29
+CFALL:           0.03889
+KRA:            -0.0000503
+KRB:            -6.5778300
+KDA:             0.00040355
+KDB:             0.00182329
+LCCLNC:         43.75
+PROPFTOS:        0.2000       
+           
+NMAXCUT:         0.55           
+NMAX1A:        -0.662    
+NMAX1B:        5.06     
+NMAX2A:        -0.662  
+NMAX2B:        5.06       
+NFALL:           0.00700          
+NUPA:            1.4863           
+NUPB:           3.001      
+NLOSS:           1.00           
+NFIXPAR:         0.00           
+CNEVEN:         43.75           
+CNMIN:           20.00           
+VEGC2NA:         0.00           
+VEGC2NB:        75.00  
+C2NMIN:         75.00       
+CNSOIL:         16.03
